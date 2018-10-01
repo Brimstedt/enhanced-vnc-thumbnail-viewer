@@ -9,11 +9,11 @@
  * 
  */
 
-import java.util.Vector;
+import java.util.*;
 
 class Pagination {
 
-    static int thumbsnailPerPage = 4;
+	static int thumbsnailPerPage = 16;
     static int presentPage;
     int previousStart, previousEnd, nextStart, nextEnd, presentStart, presentEnd;
     int[] step;
